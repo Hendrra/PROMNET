@@ -4,48 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Document</title>
 </head>
-<body style="background-color:rgb(4, 80, 156) ;">
-</body>
+<body>
+    <!-- ini adalah header -->
     <header>
-        <!-- Ini adalah Block Header-->
+        <h1> Belajar membuat layout dengan HTML dan CSS</h1>
     </header>
-    <center> <h1 style="font-family:Arial;">DATA MAHASISWA UPI PWK 2022</h1> </center>
-    <section>
-        <img src="Img/foto.JPG" style="display:block ; margin: auto;" width="300" height="200"> 
-        <table style="border: 1px solid; text-align:left; margin: 0px auto;">
-            <h1 style="font-family:verdana;"></h1>
-            <tr>
-                <th>Nama</td>
-                <td>:</td>
-                <td>Hendra Wijaya</td>
-            </tr>
-            <tr>
-                <th>NIM</td>
-                <td>:</td>
-                <td>2107782</td>
-            </tr>
-            <tr>
-                <th>Prodi</td>
-                <td>:</td>
-                <td>Pendidikan Sistem dan Teknologi Informasi</td>
-            </tr>
-            <tr>
-                <th>Hobbi</td>
-                <td>:</td>
-                <td>Rebahan</td>
-            </tr>
-            <tr>
-                <th>Alamat</td>
-                <td>:</td>
-                <td> Dsn. Cikuda 1 RT 02/01, Ds. Sukasari, Kec. Cibuaya, Kab. Karawang 41356</td>
-            </tr>
-        </table>
-    </section>
-    
+
+    <!-- ini adalah navigasi menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ini adalah container -->
+    <div id="container">
+        <section class="kiri">
+            <div class="content">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum veniam nam sunt expedita vero accusamus nobis atque id fuga eaque, facilis non in enim pariatur quas numquam corrupti voluptates a.
+                </p>
+                <button>Read More...</button>
+            </div>
+            <div class="content">
+                <h3>Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum veniam nam sunt expedita vero accusamus nobis atque id fuga eaque, facilis non in enim pariatur quas numquam corrupti voluptates a.
+                </p>
+                <button>Raed More...</button>
+            </div>
+        </section>
+
+        <section class="kanan">
+            <head>
+                <h4>CATEGORY</h4>
+            </head>
+        <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Bootsrap</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">Laravel</a></li>
+         </ul>
+
+        </section>
+    </div>
+
+    <!-- ini adalah footer -->
     <footer>
-        <!--Ini adalah block footer-->
+        <p>Copyright PSTI 2022</p>
     </footer>
 
 </body>
